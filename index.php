@@ -21,6 +21,16 @@
 
 <body>
 
+  <?php
+  foreach ($faqs as $faq) {
+    echo '<h1>' . $faq['title'] . '</h1>';
+    $content = $faq['content'];
+    for ($i = 0; $i < count($content); $i++) {
+      echo '<p>' . $content[$i] . '</p>';
+    }
+  }
+  ?>
+
 </body>
 
 </html>
