@@ -1,0 +1,9 @@
+.container {
+  width: 90%;
+  max-width: 1150px;
+  margin: auto;
+}
+
+article {
+  margin-bottom: 30px;
+}
